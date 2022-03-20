@@ -7,3 +7,16 @@
 body{
     background: rgba(175, 175, 175,0.5);
 }
+
+.nav-header{
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+
+}
+
+.container-banner div img{
+    border: 3px solid #FFF;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: 10px;
+}
