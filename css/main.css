@@ -1,9 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-body{
-    background: rgba(175, 175, 175,0.5);
+body {
+    background: rgba(175, 175, 175, 0.5);
+}
+
+.nav-header {
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+.container-banner div img {
+    border: 3px solid #FFF;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.container-lanches {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.lanches {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid rgb(108, 10, 236);
+    background-color: #FFF;
+    border-radius: 15px;
+    flex-flow: column wrap;
+    flex-basis: 45%;
+
 }
